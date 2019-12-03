@@ -8,3 +8,5 @@ while len(password)<7:
 
 for i in range(0,len(password)):
     print("*", end='')
+
+    
