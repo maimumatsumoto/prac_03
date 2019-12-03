@@ -3,7 +3,6 @@ def main():
     password = get_password()
 
 
-
     while len(password)<7:
         print("too short")
         password = input("enter pass again")

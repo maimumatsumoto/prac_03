@@ -19,7 +19,7 @@ def print_menu():
     F - Convert Fahrenheit to Celsius
     Q - Quit"""
     print(MENU)
-    
+
 
 
 def fahr_to_cel():
