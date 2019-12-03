@@ -1,12 +1,24 @@
-password = input("Enter password")
+def main():
+
+    password = get_password()
 
 
 
-while len(password)<7:
-    print("too short")
-    password = input("enter pass again")
+    while len(password)<7:
+        print("too short")
+        password = input("enter pass again")
 
-for i in range(0,len(password)):
-    print("*", end='')
+    print_asterisks(password)
 
-    
+
+def print_asterisks(password):
+    for i in range(0, len(password)):
+        print("*", end='')
+
+
+def get_password():
+    password = input("Enter password")
+    return password
+
+
+main()
